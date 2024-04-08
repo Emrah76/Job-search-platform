@@ -12,5 +12,6 @@ We have created an interface where current job adverts are listed on this site.
 
 # SCREEN RECORDING
 
+![Screen Recording](https://github.com/Emrah76/Job-search-platform/assets/150621750/0b6f0abc-6233-4160-8912-f0a95423e6dc)
 
-![Screen Recording](https://github.com/Emrah76/Job-search-platform/assets/150621750/af4fa6c8-6a57-4e6d-aeed-332c8af52533)
+
