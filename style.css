@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.banner {
+  height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(images/group.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.banner h1 {
+  padding-top: 170px;
+  font-size: 40px;
+  letter-spacing: 3px;
+  text-shadow: 0 0 30px orange;
+}
+.banner p {
+  text-shadow: 0 0 20px orange;
+}
+/*  input alanı */
+.search-job {
+  padding: 30px 0;
+  margin: -50px 6% 50px;
+  background-image: linear-gradient(to right, #6db9ef, #7ce00a);
+  border-radius: 20px;
+}
+
+.search-job:hover {
+  scale: 1.02;
+  transition: 0.8s;
+}
+
+.search-job .form-control {
+  max-width: 250px;
+  display: inline-flex;
+  margin: 10px 5px;
+  border-radius: 10px;
+  box-shadow: none !important;
+}
+
+.form-control:hover {
+  scale: 1.05;
+  transition: 0.7s;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.search-job .btn-primary {
+  border-radius: 10px;
+  box-shadow: none !important;
+  border: 0;
+  display: inline-flex;
+  margin: 5px;
+  padding: 5px 20px;
+  outline: none !important;
+}
+.search-job .btn-primary:hover {
+  scale: 1.05;
+  transition: 0.5s;
+}
+/* jobs */
+#jobs {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+#jobs h3 {
+  padding-top: 30px;
+}
+h3::before {
+  content: "";
+  background-image: linear-gradient(to right, #6db9ef, #7ce00a);
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  z-index: -100;
+  margin: -16px;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 80px;
+  margin-left: 2px;
+}
+#jobs img {
+  max-width: 100px;
+  margin: 10px;
+}
+/* top info */
+#top-job {
+  background: #f8f8fa;
+  padding: 50px 0;
+}
+.company-details {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.job-update {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.job-update .fa-solid {
+  margin-top: 5px;
+  margin-right: 10px;
+  color: #77d1b1;
+}
+.job-update .small {
+  background-color: #efefef;
+  padding: 1px 5px;
+  margin: 0;
+}
+.job-update a {
+  text-decoration: none;
+  color: #b6bed2;
+  float: right;
+}
+.apply-btn {
+  height: 40px;
+  background-image: linear-gradient(to right, #6db9ef, #7ce00a);
+  padding: 7px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.apply-btn .btn-primary{
+    padding: 0 30px;
+    float: right;
+    border-radius: 2px;
+    box-shadow:none !important;
+    background: transparent;
+    border: 1px solid #fff;
+}
+.apply-btn .btn-primary:hover{
+    background-color: #437599;
+    transition: .5s;
+}
+/* page link */
+.page-link li{
+    height: 25px;
+    width: 25px;
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.page-link li:hover, .active{
+  color: #fff;
+  background-image: linear-gradient(to right, #6db9ef, #7ce00a);
+}
+.left-arrow{
+  color: #999;
+}
+.right-arrow{
+  color: #29b929;
+}
+
+/* site-stats */
+#site-stats{
+  padding: 100px 0;
+}
+#site-stats{
+  margin-bottom: 30px;
+}
+.stats-box{
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0 2px 40px rgba(110, 130, 208, 0.18);
+}
+.stats-box .fa{
+  font-size: 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+/* footer */
+.footer{
+  background-image: linear-gradient(to right, #6db9ef, #7ce00a);
+  padding: 20px;
+}
+.social-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.social-buttons img{
+  max-width: 100px;
+}
+.footer p span{
+  color: rgb(167, 125, 125);
+}
